@@ -1,0 +1,54 @@
+:root {
+  --cream: #f9ffdd;
+  --teal-top: #499e8a;
+  --teal-bottom: #719193;
+}
+
+body {
+  max-width: 393px;
+  margin: 0 auto;
+  background: linear-gradient(var(--teal-top) 50%, var(--teal-bottom));
+}
+
+/* Header with tree illustration */
+.hero {
+  height: 420px;
+  background-image: url("images/tree.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.hero-title {
+  margin: 0;
+  padding-top: 183px;
+  text-align: center;
+  font-family: "Aclonica", sans-serif;
+  font-size: 54px;
+  font-weight: 400;
+  color: var(--cream);
+}
+
+/* Water and land arrows */
+.choices {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 66px;
+  padding: 0 22px 0 39px;
+}
+
+.choice-arrow-water {
+  display: block;
+  width: 97px;
+}
+
+.choice-arrow-land {
+  display: block;
+  width: 108px;
+}
+
+/* Waves and snail */
+.bottom-scene {
+  display: block;
+  width: 100%;
+}
